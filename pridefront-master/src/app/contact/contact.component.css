@@ -1,0 +1,10 @@
+input.btn.btn-primary{
+color: white;
+ background-color: purple;
+ border-color: purple;
+}
+form{
+  align-self: center;
+  width: 70em;
+  padding: 90px;
+}
