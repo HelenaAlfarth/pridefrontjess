@@ -8,6 +8,7 @@ import { ProfessionalsComponent } from './professionals/professionals.component'
 import { PatientsComponent } from './patients/patients.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxMaskModule } from 'ngx-mask';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgxMaskModule } from 'ngx-mask';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgxMaskModule.forRoot()
+    NgxMaskModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
