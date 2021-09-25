@@ -11,10 +11,11 @@ body {
   margin-top: 80px;
 }
 
-#patients-complete-form, 
+#patients-complete-form,
 #professionals-complete-form{
   text-align: start(input);
-  margin-top: 80px;
+  margin-top: 60px;
+
 }
 
 
@@ -23,18 +24,19 @@ h1  {
   text-align: center;
 }
 
-  
+
 label{
   width: 26em;
-  font-size: 120%; 
+  font-size: 120%;
   text-align: start;
 }
-  
+
 input{
   width: 26em;
   border-radius: 7px;
+  border-color: white;
 }
-  
+
 form{
   position: center;
   text-align: center;
@@ -43,6 +45,8 @@ form{
 input#button{
   width: 8em;
   align-self: center;
+  background-color: white;
+
 
 }
 
@@ -106,5 +110,5 @@ input#button{
     max-width: 200px;
     max-height: 200px;
   }
-  
+
 }

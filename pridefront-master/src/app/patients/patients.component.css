@@ -3,5 +3,12 @@ img{
     max-width: 500px;
     max-height: 500px;
     right: 100px;
-    margin-top: 80px;
+    margin-top: 75px;
   }
+
+  #social-media {
+    width: 13em;
+    border-radius: 7px;
+  }
+
+
