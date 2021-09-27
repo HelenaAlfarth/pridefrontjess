@@ -1,14 +1,12 @@
 img{
-    position: absolute;
-    max-width: 500px;
-    max-height: 500px;
-    right: 100px;
-    margin-top: 75px;
-  }
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  right: 100px;
+  margin-top: 75px;
+}
 
-  #social-media {
-    width: 13em;
-    border-radius: 7px;
-  }
-
-
+#social-media {
+  width: 13em;
+  border-radius: 7px;
+}
