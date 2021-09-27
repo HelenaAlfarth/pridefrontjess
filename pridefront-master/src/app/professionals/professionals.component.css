@@ -5,3 +5,13 @@ img{
     right: 100px;
     margin-top: 80px;
   }
+
+#social-media input,
+#phone input{
+    width: 13em;
+    border-radius: 7px;
+}
+
+select{
+  color: black;
+}

@@ -28,8 +28,15 @@
         </label><br>
 
         <label id="specialty">
-          <span>Especialidade</span><br>
-          <input type="text" name="specialty">
+          <span for="exampleFormControlSelect1">Especialidade</span>
+          <select class="form-control" id="Mensagem"><br>
+            <option>Médico</option>
+            <option>Dentista</option>
+            <option>Psicólogo</option>
+            <option>Nutricionaista</option>
+            <option>Enfermeiro</option>
+            <option>Fisioterapeuta</option>
+          </select> 
         </label><br>
 
         <label id="place">
@@ -38,13 +45,16 @@
         </label><br>
 
         <label id="phone">
-          <span>Telefone</span><br>
+          <span>Telefones</span><br>
+          <input type="tel" name="phone" mask="(00) 0000-0000" placeholder="(00) 00000-0000">
+          <i class="fa-solid fa-mobile-screen-button"></i>
           <input type="tel" name="phone" mask="(00) 00000-0000" placeholder="(00) 00000-0000">
         </label><br>
 
         <label id="social-media">
           <span>Redes sociais (opcional)</span><br>
-          <input type="text" name="social-media">
+          <input type="text" name="instagram" placeholder="Instagram">
+          <input type="text" name="facebook" placeholder="Facebook">
         </label><br>
 
         <label id="health-insurance">

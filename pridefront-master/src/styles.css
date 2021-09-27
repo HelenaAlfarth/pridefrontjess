@@ -43,8 +43,12 @@ form{
 input#button{
   width: 8em;
   align-self: center;
+  color: #black;
+  background-color: white;
 
 }
+
+
 
 /* Style the header with a grey background and some padding */
 
